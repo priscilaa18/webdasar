@@ -1,3 +1,9 @@
+body {
+    background: url("./bg.jpg") top center
+}
+
+
+
 .brown-sugar {
     color:brown;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -11,4 +17,12 @@
     margin-left: 100px;
     background-color: aqua;
     padding: 20px;
+}
+
+div a {
+    color: black;
+}
+
+div a:hover {
+    color: red;
 }
