@@ -80,10 +80,3 @@ div a:hover {
 }
 
 
-.daftar li {
-    display: inline;
-    list-style: none;
-    float: left;
-    margin-right: 10px;
-    color:#ffffff;
-}
