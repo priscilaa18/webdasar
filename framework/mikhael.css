@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+     
+    body{
+    background: #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center ;
+    height: 100%;
+    border-image-source: center;
+    }
+     
+    section{
+    margin: 100px auto;
+    }
+    
+    
+#box-body{
+    text-align: center;
+}
+
+#penjelasan{
+    justify-content: left;
+    text-align: center;
+}
+#about-me{
+    border-image-source: left;
+    justify-content: left;
+    text-align: left;
+    align-items: left ;
+    padding: 50px;
+}
+    section img{
+    border-radius: 100%;
+    border: 10px solid #fff;
+    }
