@@ -25,9 +25,11 @@
     justify-content: left;
     text-align: center;
 }
+
+
 #about-me{
     border-image-source: left;
-    justify-content: left;
+    justify-content: center;
     text-align: left;
     align-items: left ;
     padding: 50px;
@@ -36,3 +38,4 @@
     border-radius: 100%;
     border: 10px solid #fff;
     }
+
