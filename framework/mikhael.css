@@ -16,7 +16,29 @@
     margin: 100px auto;
     }
     
+
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
     
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      padding: 15px;
+      height:auto;
+      margin: 5px;
+    }
+    
+    div.desc {
+      padding: 20px;
+      text-align: center;
+    }  
 #box-body{
     text-align: center;
 }
@@ -27,15 +49,27 @@
 }
 
 
-#about-me{
-    border-image-source: left;
-    justify-content: center;
+#contact-me{
     text-align: left;
-    align-items: left ;
-    padding: 50px;
+    justify-content: center;
+    align-items: center ;
+    height: 100%;
+    border-image-source: center;
+    border-style: none;
+    padding-left: center;
+    padding-right: center;
 }
-    section img{
-    border-radius: 100%;
-    border: 10px solid #fff;
-    }
+
+#my-skill{
+    text-align: left;
+    justify-content: center;
+    align-items: center ;
+    height: 100%;
+    border-image-source: center;
+    border-style: none;
+    padding-left: 250px;
+    padding-right: 300px;  
+}
+
+
 
