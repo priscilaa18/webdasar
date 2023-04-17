@@ -22,22 +22,22 @@
     <h2>Saya menampilkan nilai Pecahan ini <?=$pecahan?></h2>
 
     <?php
-            // $perbandingan = true; // tipe data boolean
+           //  $perbandingan = true; // tipe data boolean
 
-            // echo $perbandingan; 
+           // echo $perbandingan; 
             echo "<br/>";
     ?>
 
     <?php
 
         /*
-            $provinsi[0] = "Jawa Timur";
-            $provinsi[1] = "DKI Jakarta";
-            $provinsi[2] = "IKN";
+           $provinsi[0] = "Jawa Timur";
+           $provinsi[1] = "DKI Jakarta";
+           $provinsi[2] = "IKN";
         */
 
-           /*  $provinsi = array("Jawa Timur", 
-                              "DKI Jakarta", 
+            /* $provinsi = array("Jawa Timur", 
+                              "DKI Jakarta",
                               "IKN"); */
 
 
@@ -54,36 +54,36 @@
 
             echo "<br/>";
 
-            /*if($perbandingan == true) {
+           /* if($perbandingan == true) {
                 echo "ucapkan selamat pagi";
             } else {
                 echo "ucapkan selamat";
             }
-*/
-            /* $perbandingan = 4; 
-            switch($perbandingan) {
-                case true;
-                $pesan = "soto ayam";
+            */
+            /* $perbandingan = 4;
+            switch($perbandingan) { // percabangan
+                case 1:
+                    $pesan = "soto ayam";
                 break;
-                case false;
-                $pesan = "ayam goreng";
+                case 2:
+                    $pesan = "ayam goreng";
                 break;
-                default;
-                $pesan = "engga ding";
+                default:
+                    $pesan = "engga ding";
             }
-
+ 
             echo $pesan; */
 
             $pesan = ($hasil == 2) ? "santai saja" : "salah";
 
             echo $pesan;
             echo "<br/>";
-
+            
             $provinsi = array("Jawa Timur", 
-                              "DKI Jakarta", 
+                              "DKI Jakarta",
                               "IKN",
                               "Jawa Tengah",
-                              "Jawa barat");
+                              "Jawa Barat");
 
             foreach($provinsi as $key) {
                 echo $key;
@@ -96,11 +96,11 @@
                 echo "topi bundar <br/>";
                 $i++;
             }
-            ?>
-            <!--
-            <?php for ($i=0; $i<100; $i++) { ?>
-                <h2>Hello World</h2>
-            <?php } ?>
-            -->
+    ?>
+    <!--
+    <?php for ($i=0; $i<100; $i++) { ?>
+        <h2>Hello World</h2>
+    <?php } ?>
+    -->
 </body>
 </html>
