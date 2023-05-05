@@ -31,6 +31,7 @@
                 ('$nim','$nama','$jenis_kelamin','$tpt_lahir','$tgl_lahir','$alamat')";
 
         if (mysqli_query($conn, $sql)) {
+
     ?>
         <div class="alert alert-success" role="alert">
             <i class="bi bi-info-circle"></i> Data Berhasil Ditambah. <a class="btn btn-link" href="./">Halaman Utama</a>
