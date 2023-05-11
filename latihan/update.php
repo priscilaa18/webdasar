@@ -93,3 +93,20 @@ if (isset($_POST['submit'])){
     <?php endif; ?>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+        <td><input type="hidden" name="id" value="<?php echo $_GET['id'];?>"></td>
+        </div>
