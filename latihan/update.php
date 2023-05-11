@@ -5,14 +5,14 @@ if(isset($_GET['update'])){
     $id = $_GET['update'];
 
     // Buat koneksi dengan MySQL
-    $con = mysqli_connect("localhost","root","","seal_fakultas");
+    $conn = mysqli_connect($host, $user, $pass, $base);
 
     // Check connection
     if (mysqli_connect_errno()) {
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
         exit();
     }else{
-        echo '<br>koneksi berhasil';
+        echo 'koneksi berhasil';
     }
 
     $sql = "SELECT * FROM mahasiswa WHERE id='$id'";
@@ -46,14 +46,14 @@ if (isset($_POST['submit'])){
     $alamat = $_POST['alamat'];
 
     // Buat koneksi dengan MySQL
-    $con = mysqli_connect("localhost","root","","seal_fakultas");
+    $conn = mysqli_connect($host, $user, $pass, $base);
 
     // Check connection
     if (mysqli_connect_errno()) {
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
         exit();
     }else{
-        echo '<br>koneksi berhasil';
+        echo 'koneksi berhasil';
     }
 
     $sql = "UPDATE mahasiswa SET nim='$nim',nama='$nama',id_jurusan='$id_jurusan',tempat_lahir='$tpt_lahir',
